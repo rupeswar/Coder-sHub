@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Coder\'s Hub</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_user_info">User Info</string>
+    <string name="menu_conversations">Conversations</string>
+    <string name="menu_conversation">Conversation</string>
+    <string name="menu_add_personal_conversation">Add Personal Conversation</string>
+    <string name="menu_add_group_conversation">Add Group Conversation</string>
+    <string name="menu_codeforces_home">Codeforces</string>
+    <string name="menu_codeforces">"%1$s's Info"</string>
+    <string name="menu_contest_history">Contest History</string>
+    <string name="rank">Rank: </string>
+    <string name="old_rating">Old Rating: </string>
+    <string name="rating_change">Rating Change: </string>
+    <string name="new_rating">New Rating: </string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="message_subscribed">Subscribed to Topic</string>
+    <string name="message_subscribe_failed">Failed to Subscribe to Topic</string>
+    <string name="start_time">Starts At:</string>
+    <string name="duration">Duration:</string>
+    <string name="enter_codeforces_handle">Enter Codeforces Handle</string>
+</resources>

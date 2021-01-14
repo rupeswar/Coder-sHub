@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288361820776",
+    "project_id": "coder-s-hub",
+    "storage_bucket": "coder-s-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288361820776:android:773cc1aae49a84fc6681dd",
+        "android_client_info": {
+          "package_name": "com.rupeswar.codershub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288361820776-8225qq0qrj97noqpan9lq9rmjm80m577.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALYpE86u-EI4xxzzxgJatrgE6bk-ENbhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288361820776-8225qq0qrj97noqpan9lq9rmjm80m577.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

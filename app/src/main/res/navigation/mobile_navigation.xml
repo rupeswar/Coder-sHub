@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_user_info">
+
+    <fragment
+        android:id="@+id/nav_user_info"
+        android:name="com.rupeswar.codershub.ui.userInfo.UserInfoFragment"
+        android:label="@string/menu_user_info"
+        tools:layout="@layout/fragment_user_info" >
+        <action
+            android:id="@+id/action_nav_user_info_to_nav_conversations"
+            app:destination="@id/nav_conversations" />
+        <action
+            android:id="@+id/action_nav_user_info_to_nav_codeforces_home"
+            app:destination="@id/nav_codeforces_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_conversations"
+        android:name="com.rupeswar.codershub.ui.conversations.ConversationsFragment"
+        android:label="@string/menu_conversations"
+        tools:layout="@layout/fragment_conversations" >
+        <action
+            android:id="@+id/action_nav_conversations_to_nav_conversation2"
+            app:destination="@id/nav_conversation" />
+        <action
+            android:id="@+id/action_nav_conversations_to_nav_add_personal_conversation2"
+            app:destination="@id/nav_add_personal_conversation" />
+        <action
+            android:id="@+id/action_nav_conversations_to_nav_add_group_conversation2"
+            app:destination="@id/nav_add_group_conversation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_conversation"
+        android:name="com.rupeswar.codershub.ui.conversations.conversation.ConversationFragment"
+        android:label="@string/menu_conversation"
+        tools:layout="@layout/fragment_conversation" >
+<!--        <argument-->
+<!--            android:name="cid"-->
+<!--            app:argType="string"-->
+<!--            android:defaultValue=""/>-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add_personal_conversation"
+        android:name="com.rupeswar.codershub.ui.conversations.AddPersonalConversationFragment"
+        android:label="@string/menu_add_personal_conversation"
+        tools:layout="@layout/fragment_add_personal_conversation" />
+
+    <fragment
+        android:id="@+id/nav_add_group_conversation"
+        android:name="com.rupeswar.codershub.ui.conversations.AddGroupConversationFragment"
+        android:label="@string/menu_add_group_conversation"
+        tools:layout="@layout/fragment_add_group_conversation" />
+
+    <fragment
+        android:id="@+id/nav_codeforces_home"
+        android:name="com.rupeswar.codershub.ui.codeforces.CodeforcesHomeFragment"
+        android:label="@string/menu_codeforces_home"
+        tools:layout="@layout/fragment_codeforces_home" >
+        <action
+            android:id="@+id/action_nav_codeforces_home_to_nav_codeforces_user_info2"
+            app:destination="@id/nav_codeforces_user_info" />
+        <action
+            android:id="@+id/action_nav_codeforces_home_to_nav_codeforces_contests2"
+            app:destination="@id/nav_codeforces_contests" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_codeforces_user_info"
+        android:name="com.rupeswar.codershub.ui.codeforces.userInfo.CodeforcesUserInfoFragment"
+        tools:layout="@layout/fragment_codeforces_user_info" >
+        <action
+            android:id="@+id/action_nav_codeforces_user_info_to_nav_codeforces_contest_history2"
+            app:destination="@id/nav_codeforces_contest_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_codeforces_contest_history"
+        android:name="com.rupeswar.codershub.ui.codeforces.userInfo.UserContestHistoryFragment"
+        android:label="@string/menu_contest_history"
+        tools:layout="@layout/fragment_user_contest_history" />
+
+    <fragment
+        android:id="@+id/nav_codeforces_contests"
+        android:name="com.rupeswar.codershub.ui.codeforces.contests.ContestsFragment"
+        android:label="Contests"
+        tools:layout="@layout/fragment_contests"/>
+
+</navigation>
